@@ -127,7 +127,20 @@ public class HW4 {
 
         printLine();
         printTask();
-
+        int mark = 4;
+        if (mark == 5){
+            System.out.println(" Ученику выдать похвальную грамоту" +
+                    " и перевести в следующий класс");
+        } else if (mark == 4){
+            System.out.println(" Ученика перевести в следующий" +
+                    " класс");
+        } else if (mark == 3){
+            System.out.println(" Ученику дать задание на лето и " +
+                    "перевести в следующий класс");
+        } else {
+            System.out.println(" Вызвать родителей  ученика и " +
+                    "оставить в текущем классе на второй год");
+        }
 
     }
 }
