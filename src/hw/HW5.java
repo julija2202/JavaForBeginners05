@@ -7,7 +7,8 @@ import java.util.List;
 public class HW5 {
     public static int number =2;
         public static void printNumber(){
-            System.out.print(" Test №" + number++ + "   ----       ");
+            System.out.print(" Test №" +
+                    number++ + "   ----       ");
         }
         public static String verifyEquals ( int expectedResult, int actualResult){
             if (expectedResult == actualResult) {
